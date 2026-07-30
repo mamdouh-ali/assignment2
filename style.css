@@ -1,0 +1,300 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+a,
+span {
+    display: inline-block;
+}
+
+img {
+    width: 90%;
+}
+
+.hero-section {
+    background-color: aliceblue;
+
+}
+
+.hero-content {
+    width: 45%;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    padding: 40px;
+
+}
+
+.hero-content-right {
+
+    padding: 15px;
+}
+
+.hero-content-right img {
+    border-radius: 10px;
+}
+
+.hero-content-left {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.hero-bttn .btn-primary {
+
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+}
+
+.hero-bttn .btn-secondary {
+
+    background-color: azure;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    width: 150px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.featurearea {
+    background-color: aliceblue;
+    padding: 20px;
+
+}
+
+.feature {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+.section-description {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.card1 {
+    width: 30%;
+    float: left;
+    background-color: cadetblue;
+    margin: 10px;
+}
+
+.card2 {
+    width: 30%;
+    float: left;
+    background-color: lightgreen;
+    margin: 10px;
+
+}
+
+.card3 {
+    width: 30%;
+    float: left;
+    background-color: mediumpurple;
+    margin: 10px;
+
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 30px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.icon span {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.blue {
+    background: #1d4eff;
+}
+
+.green {
+    background: #009966;
+}
+
+.purple {
+    background: #a000ff;
+}
+
+.benfits {
+    width: 100%;
+    padding: 20px;
+}
+
+.why {
+    width: 47%;
+    float: left;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+.left-inf img {
+    width: 100%;
+    height: 60%
+}
+
+.sec {
+    border-left-width: 5px;
+    border-color: black;
+    padding-left: 20px;
+    border-left-style: solid
+}
+
+.Testmonials {
+    width: 100%;
+    padding: 20px;
+    background-color: aliceblue
+}
+
+.test {
+    width: 29%;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.test1 {
+    background-color: aquamarine;
+}
+
+.test2 {
+    background-color: lightpink;
+}
+
+.test3 {
+    background-color: mistyrose;
+}
+
+.trainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.trainer img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nums {
+    width: 93%;
+    height: 150px;
+    padding: 20px;
+    margin: 30px 10px;
+    background-color: azure;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.num {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.form {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: aliceblue
+}
+
+.name {
+    width: 47%;
+    float: left;
+    padding: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: aliceblue;
+}
+
+.btn3 {
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+}
+
+footer {
+    background-color: midnightblue;
+    color: #fff;
+}
+
+.about-us h2 {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    padding: 5px;
+}
+
+.foot {
+    width: 30%;
+    float: left;
+    margin:auto;
+    padding: 10px;
+}
+.flex{
+    display: flex;
+}
+.uti{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-color: black;
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+h1 {
+    color: blueviolet;
+    font-size: 60px;
+}
+
+h2 {
+    color: blueviolet;
+    font-size: 40px;
+}
